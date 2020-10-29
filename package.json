@@ -1,10 +1,11 @@
 {
   "name": "rollup-plugin-swagger-jsdoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup plugin to generate a swagger.json file from JSDoc comments.",
   "main": "build/rollup-plugin-swagger-jsdoc.cjs.js",
   "module": "build/rollup-plugin-swagger-jsdoc.es.js",
   "scripts": {
+    "test": "",
     "build": "rollup -c"
   },
   "repository": {

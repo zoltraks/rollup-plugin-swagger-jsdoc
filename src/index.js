@@ -16,7 +16,6 @@ export default function swagger(options) {
             }
         },
         generateBundle() {
-            console.log(`Yahoo from ${__filename}`);
             const output = options.output;
             delete options.output;
             let pretty = false;
