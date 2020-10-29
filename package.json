@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-swagger-jsdoc",
+  "version": "1.0.0",
+  "description": "Rollup plugin to generate a swagger.json file from JSDoc comments.",
+  "main": "build/rollup-plugin-swagger-jsdoc.cjs.js",
+  "module": "build/rollup-plugin-swagger-jsdoc.es.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoltraks/rollup-plugin-swagger-jsdoc.git"
+  },
+  "keywords": [
+    "rollup-plugin-swagger-jsdoc",
+    "rollup-plugin",
+    "swagger-jsdoc"
+  ],
+  "author": "Filip Golewski <f.golewski@gmail.com> (https://filip.alyx.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoltraks/rollup-plugin-swagger-jsdoc/issues"
+  },
+  "homepage": "https://github.com/zoltraks/rollup-plugin-swagger-jsdoc",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "rollup": "^2.32.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "swagger-jsdoc": "^5.0.0"
+  }
+}
